@@ -1,0 +1,44 @@
+
+.driverCardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.driverCard {
+display: flex;
+justify-content: center;
+align-content: center;
+gap: 14px;
+background-color: #4862b9;
+padding: 14px;
+width: 100%;
+border-radius: 8px;
+color: black;
+text-align: left;
+}
+
+.driverCard h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.driverCard img {
+  width: 100px;
+  height: 100px;
+  border-radius:100%;
+  object-fit: cover;
+}
+
+.driverCardInfo {
+  width: 300px;
+}
+
+.driverEstrelas {
+  font-size: 2em;
+  margin: 0;
+}
+
+.driverCard p {
+  margin: 0;
+}
